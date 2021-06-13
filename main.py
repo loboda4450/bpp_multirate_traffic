@@ -46,5 +46,8 @@ def main():
 if __name__ == '__main__':
     a = [[15, 1, 4, 2], [15, 1, 4, 2]]
     c = [[1, 6, 10, 20], [1, 3, 10, 15]]
-    print(q(a, c, 2))
-    pass
+    m = 4
+
+    for i in range(0, m + 1):
+        print(f'q({i}) = {q(a, c, i)}')
+
